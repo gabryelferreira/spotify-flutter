@@ -8,6 +8,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       child: ListView.builder(
+        padding: EdgeInsets.only(top: 50),
         itemCount: categories.length,
         itemBuilder: (context, index) {
           return Column(
