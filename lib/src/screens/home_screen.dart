@@ -24,7 +24,7 @@ class HomeScreen extends StatelessWidget {
                 ),
               ),
               Container(
-                height: 190,
+                height: 230,
                 child: ListView.builder(
                   padding: EdgeInsets.only(left: 10),
                   scrollDirection: Axis.horizontal,

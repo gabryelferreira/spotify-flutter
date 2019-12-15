@@ -12,7 +12,7 @@ class AlbumCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 120,
+      width: 160,
       child: Padding(
         padding: const EdgeInsets.only(right: 10),
         child: Column(
@@ -20,11 +20,11 @@ class AlbumCard extends StatelessWidget {
           children: <Widget>[
             Image.asset(
               album.imageUrl,
-              height: 120,
-              width: 120,
+              height: 160,
+              width: 160,
             ),
             SizedBox(
-              height: 8,
+              height: 6,
             ),
             Text(
               album.title,
@@ -33,7 +33,7 @@ class AlbumCard extends StatelessWidget {
               overflow: TextOverflow.ellipsis,
             ),
             SizedBox(
-              height: 4,
+              height: 2,
             ),
             Text(
               album.description,
@@ -56,5 +56,5 @@ const _albumTitleStyle = TextStyle(
 
 const _albumDescriptionStyle = TextStyle(
   color: Colors.grey,
-  fontSize: 10,
+  fontSize: 12,
 );
